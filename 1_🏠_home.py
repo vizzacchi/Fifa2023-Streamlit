@@ -19,9 +19,10 @@ if "data" not in st.session_state: # ainda não temos a variavel data na sessão
 st.markdown("# FIFA23 OFFICIAL DATASET! ⚽")
 st.sidebar.markdown("Desenvolvido por [Douglas Vizzacchi](https://www.vizzacchi.com.br)")
 
-btn = st.button_link("Acesse os dados no Kaggle")
-if btn:
-    link.open_new_tab("https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database")
+btn = st.link_button(
+    "Acesse os dados no Kaggle",
+    "https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database" 
+    )
 
 st.markdown(
     """
