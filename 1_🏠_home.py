@@ -24,6 +24,8 @@ btn = st.link_button(
     "https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database" 
     )
 
+
+
 st.markdown(
     """
     O conjunto de dados contém *+17 mil jogadores* únicos e mais de 60 colunas, informações gerais e todos os KPIs que o famoso videogame oferece. Como a cena de esports continua crescendo espacialmente no FIFA, achei que poderia ser útil para a comunidade (kagglers e/ou jogadores).
